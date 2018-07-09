@@ -37,7 +37,7 @@ int main(void){
       printf("(%d) %d %d\n", i, p[i], w[i]);
       j -= w[i];
     }
-    else if(dp[i-1][j] == dp[i][j]) {}//printf("(Hadn't choose.\n)");
+    else if(dp[i-1][j] == dp[i][j]) {}//printf("(Hadn't chosen.\n)");
     else printf("Something wrong!\n");
     i--;
   }
